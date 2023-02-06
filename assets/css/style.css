@@ -148,6 +148,16 @@ main {
     color: var(--main-branco)
 }
 
+[data-cor]{
+    display: flex;
+    width: 8em;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+[data-botoes]{
+    display: flex;
+}
 
 
 /****************************** Estatísticas *****/
@@ -221,11 +231,13 @@ main {
 }
 
 @media screen and (max-width: 1200px) {
+    
     body { 
         font-size: 13px;
     }
 
     main {
+        display: flex;
         width: 96vw;
         height: 80vh;
         margin: 10vh auto;
